@@ -1,0 +1,4 @@
+{
+    "classifiers": ["EfficientV2", "EfficientV1", "EfficientB0"],
+    "segmentations": ["BiSeNetV2", "BiSeNetV1"] 
+}

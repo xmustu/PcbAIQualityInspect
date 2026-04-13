@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+*.so
+.venv/
+venv/
+.env
+.env.*
+
+# Jupyter
+.ipynb_checkpoints/
+
+# PyTorch / exported weights
+*.pth
+*.pt
+*.onnx
+*.ckpt
+
+# Training outputs
+results/
+classifier_model_checkpoints/
+**/confusion_matrix*.png
+**/train_history*.png
+
+# Large local datasets (remove these lines if you intend to version data)
+Classifier/data/
+
+# IDE / OS
+.idea/
+.vscode/
+*.swp
+.DS_Store
+Thumbs.db
+
+# Logs & temp
+*.log
+GUI/temp/
+temp/
